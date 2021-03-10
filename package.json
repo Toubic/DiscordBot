@@ -1,0 +1,28 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon -L main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toubic/DiscordBot.git"
+  },
+  "author": "Toubic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toubic/DiscordBot/issues"
+  },
+  "homepage": "https://github.com/Toubic/DiscordBot#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "scryfall-sdk": "^2.1.1"
+  }
+}
