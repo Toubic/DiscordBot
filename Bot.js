@@ -2,7 +2,9 @@ require('dotenv').config()
 const Discord = require("discord.js");
 const Scry = require("scryfall-sdk");
  
-const client = new Discord.Client();
+const client = new Discord.Client({
+    partials: ["MESSAGE"]
+});
 
 module.exports.Connect = function(){
 
